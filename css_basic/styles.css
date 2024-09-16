@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    
    
 }
 main {
@@ -16,4 +17,36 @@ article {
 aside {
     flex: 1;
     overflow-y: auto;
+}
+.logo {
+    font-size: 2rem; 
+    color: #4CAF50; 
+    margin-right: 20px; 
+    display: inline-block; 
+}
+header {
+    background-color: #333; 
+    color: white; 
+    padding: 10px 20px; 
+}
+
+header ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    align-items: center; 
+}
+
+header li {
+    margin-right: 15px; 
+}
+
+header a {
+    color: white; 
+    text-decoration: none; 
+}
+
+header a:hover {
+    text-decoration: underline; 
 }
