@@ -1,0 +1,23 @@
+/* Reset default margin and padding */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a default font and line height */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Remove list bullets */
+ul {
+    list-style: none;
+}
+
+/* Reset link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
