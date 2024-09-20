@@ -151,3 +151,40 @@ margin-left: 150px;
     line-height: 27px;
 }
 /* testimonial */
+.testimonial {
+    width: 1440px;
+    height: 392px;
+    background-color: #C271FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-description {
+    color: white;
+}
+.testimonial-description blockquote{
+    width: 800px;
+    height: 68px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33.6px;
+}
+.testimonial-description h3 {
+    width: 170px;
+    height: 32px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33.6px;
+    margin: 0 0 0 40px;
+}
+.testimonial-description p {
+    width: 180px;
+    height: 32px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 22px;
+    margin: 0 0 0 40px;
+}
+/* turtorials */
