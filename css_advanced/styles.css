@@ -3,9 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+.container {
     background-image: url(./images/Object.png);
-    background-repeat: no-repeat;
     width: 1440px;
     height: 1093px;
     background-size: cover;
@@ -234,11 +233,10 @@ margin-left: 150px;
 /* Color for headings inside the card */
 .heading-four {
     color: purple; 
-    width: 100;
-    height: 50;
+    width: 86;
+    height: 27;
     font-weight: 600;
     font-size: 16px;
-    display: inline;
 }
 /* Ratings container styling */
 .rating-container {
