@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('./fonts/SourceSansPro-Bold.otf') format('truetype'),
+       url('./fonts/SourceSansPro-Regular.otf') format('truetype'); /* Include other styles if needed */
+  font-weight: lighter;
+  font-style: normal; 
+}
+
+/* what we do section */
+#what-we-do {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 400px; 
+  margin: 0; 
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  padding-top: 600px;
+}
+
+.first_p {
+  max-width: 600px; 
+  margin-bottom: 20px; 
+  padding-left: px;
+}
+
+.icon-container {
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+  padding-top: 60px;
+  padding-bottom: 160px;
+}
+
+.icon_box {
+  text-align: center; 
+}
+
+.icon_box img {
+  max-width: 100px; 
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.video {
+  width: 60px;
+}
+.music {
+  width: 60px;
+}
+/* resonsive design */
+@media(max-width: 480px) {
+  body {
+    height: auto; 
+    padding: 20px; 
+  }
+
+  .container {
+    padding-top: 50px; 
+  }
+
+  .first_p {
+    max-width: 100%; 
+    font-size: 14px; 
+    margin: 0 10px; 
+  }
+
+  .icon-container {
+    flex-direction: column; 
+    padding-top: 30px;
+    padding-bottom: 30px; 
+  }
+
+  .icon_box img {
+    max-width: 80px; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+  }
+
+  .icon_box p {
+    font-size: 12px; 
+  }
+}
+

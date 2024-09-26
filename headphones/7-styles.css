@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('./fonts/SourceSansPro-Bold.otf') format('truetype'),
+         url('./fonts/SourceSansPro-Regular.otf') format('truetype');
+    font-weight: lighter;
+    font-style: normal; 
+}
+
+/* Global styles */
+body {
+    height: auto;
+    background-color: #979797; /* Background color without image */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* What We Do section */
+#what-we-do {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    margin: 0; 
+    background-color: white; /* White background */
+    padding: 40px 0; /* Padding for spacing */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    padding: 20px;
+    padding-right: 200px;
+}
+
+.first_p {
+    max-width: 600px; 
+    margin-bottom: 20px; 
+    color: black;
+}
+
+.icon-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.icon_box {
+    text-align: center; 
+    transition: transform 0.3s, opacity 0.3s; /* Added transition */
+}
+
+.icon_box:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    opacity: 0.8; /* Slight fade effect */
+}
+
+.icon_box img {
+    max-width: 100px; 
+    height: auto;
+    padding-top: 20px;
+}
+
+/* Our Result section */
+#our-result {
+    background-image: url(./images/headphones_hero_2.jpg); /* Background image for results */
+    background-size: cover; /* Cover the section */
+    background-position: center; /* Center the image */
+    color: white; /* White text color */
+    height: 700px;
+}
+.container {
+    padding-top: 250px;
+    padding-left: 190px;
+}
+
+.container-pentagon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px; 
+    gap: 5rem;
+    margin-top: 60px;
+}
+
+.image-container {
+    position: relative; 
+    display: inline-block; 
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s, opacity 0.3s; /* Added transition */
+}
+
+.image-container:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    opacity: 0.8; /* Slight fade effect */
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+}
+
+.text-overlay {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 10px; 
+    text-align: center; 
+    padding: 5px; 
+    border-radius: 5px; 
+}
+
+.big-p {
+   font-size: 32px;
+   margin-bottom: 10px;
+   
+}
+

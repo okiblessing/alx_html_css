@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    max-width: 1000px;
+}
+
+/* Form container styling */
+.contact-form {
+    padding: 40px;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 90%;
+    padding-left: 300px;
+}
+
+/* Center the heading */
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Input and textarea styling */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    
+}
+
+/* Change border color on focus */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #ff5e5e;
+    outline: none;
+}
+
+
+
+/* Button styling */
+.contact-form button {
+    width: 40%;
+    padding: 15px;
+    background-color: #ff5e5e;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s; 
+    margin-left: 150px;
+}
+
+/* Button hover effect */
+.contact-form button:hover {
+    background-color: #e04e4e;
+}
+
+@media (max-width: 480px) {
+    .contact-form {
+        padding: 20px; 
+        width: 100%; 
+        margin: 0 10px;
+    }
+
+    .contact-form h2 {
+        font-size: 20px; 
+    }
+
+    .contact-form button {
+        width: 40%;
+        margin-left: 100px; 
+    }
+}
